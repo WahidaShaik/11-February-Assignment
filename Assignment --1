@@ -1,4 +1,4 @@
-n=int(input())
+n=int(input('Enter n:))
 if n%2==1:
     print('Weird')
 elif n>=2 and n<=5:
@@ -8,3 +8,40 @@ elif n>=6 and n<=20:
 elif n>20:
     print('Not Weird') 
                
+
+Output-1:
+Enter n:
+1
+Weird
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
+
+Output-2:
+Enter n:
+4
+Not Weird
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
+
+Output-3:
+Enter n:
+10
+Weird
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
+
+Output-4:
+Enter n:
+26
+Not Weird
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
+
