@@ -1,0 +1,78 @@
+sno=int(input('Enter student number:'))
+sname=input('Enter student name')
+s1=int(input('s1 marks'))
+s2=int(input('s2 marks'))
+s3=int(input('s3 marks'))
+s4=int(input('s4 marks'))
+s5=int(input('s5 marks'))
+s6=int(input('s6 marks'))
+total=s1+s2+s3+s4+s5+s6
+print('total= :',total)
+avg=total/6 
+print('avg= :',avg)
+if avg>=91:
+    print('O-Grade')
+elif avg>=81:
+    print('A-Grade')
+elif avg>=71:
+    print('B-Grade')
+elif avg>=60:
+    print('C-Grade')
+elif avg>=50:
+    print('D-Grade')
+elif avg>=35:
+    print('Pass')
+elif avg<=35:
+    print('Fail')
+
+
+Output-1:
+Enter student number:
+15
+Enter student name
+Shahi
+s1 marks
+80
+s2 marks
+78
+s3 marks
+76
+s4 marks
+60
+s5 marks
+50
+s6 marks
+35
+total= : 379
+avg= : 63.166666666666664
+C-Grade
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
+
+
+Output-2:
+Enter student number:
+10
+Enter student name
+Shahi
+s1 marks
+25
+s2 marks
+40
+s3 marks
+30
+s4 marks
+25
+s5 marks
+19
+s6 marks
+34
+total= : 173
+avg= : 28.833333333333332
+Fail
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
